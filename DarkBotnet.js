@@ -544,9 +544,9 @@ const refers = [
     'http://filehippo.com/search?q=',
     'http://www.topsiteminecraft.com/site/pinterest.com/search?q=',
     'http://eu.battle.net/wow/en/search?q=',
-        "http://host-tracker.com/check_page/?url="
+        "http://host-tracker.com/check_page/?url=",
         "http://jigsaw.w3.org/css-validator/validator?url="',
-        "http://www.google.com/translate?u="
+        "http://www.google.com/translate?u=",
         "http://anonymouse.org/cgi-bin/anon-www.cgi/",
         "http://www.onlinewebcheck.com/?url=",
         "http://feedvalidator.org/check.cgi?url=",
